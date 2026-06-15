@@ -1,0 +1,68 @@
+{
+  "name": "DrywallPro Supervisor",
+  "short_name": "DrywallPro",
+  "description": "Professional job tracking for drywall supervisors — subdivisions, lots, crew, materials, and analytics in one app.",
+  "start_url": "/drywall-pro-supervisor/",
+  "scope": "/drywall-pro-supervisor/",
+  "id": "/drywall-pro-supervisor/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#0F1117",
+  "theme_color": "#0F1117",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "DrywallPro Overview screen"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Jobs",
+      "short_name": "Jobs",
+      "description": "View all subdivision jobs",
+      "url": "/drywall-pro-supervisor/#jobs",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Measure",
+      "short_name": "Measure",
+      "description": "Start a house measurement",
+      "url": "/drywall-pro-supervisor/#measure",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "prefer_related_applications": false
+}
